@@ -36,7 +36,7 @@ $navbarItems = [
 <header class="container m-auto">
     <div class="d-flex justify-content-between">
         <div class="img-container">
-            <img src="{{ asset('img/dc-logo.png') }}" alt="">
+            <img src="{{ asset('') }}" alt="">
         </div>
         <div class="d-flex align-items-center">
             <ul class="list-unstyled d-flex justify-content-end ">
