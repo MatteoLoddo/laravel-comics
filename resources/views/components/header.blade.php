@@ -33,7 +33,7 @@ $navbarItems = [
 @endphp
 
 
-<header class="container m-auto">
+<header class="container">
     <div class="d-flex justify-content-between">
         <div class="img-container">
             <img src="{{asset('images/dc-logo.png')}}" alt="">
