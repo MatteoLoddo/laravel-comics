@@ -30,3 +30,16 @@ Route::get('comics', function(){
     return view('comics');
 })->name('comics');
 
+Route::get('/products/{id}', function ($id){
+    $products = config("comics");
+    $productsFind = array_filter($products , function($product) use ($id){
+        return $product['id'] === (int) $id;
+    });
+
+    $chiave = array_keys($productsFind);
+
+    return view('prodotti.products' , [
+        "prodotto" => $productsFind[$chiave[0]],
+    ]);
+
+})->name('prodotti');

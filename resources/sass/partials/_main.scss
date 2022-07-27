@@ -1,0 +1,48 @@
+.my-bg-dark {
+  background-color: #1C1C1C;
+
+}
+
+.my-img-card{
+  
+  img{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    aspect-ratio: 1/1;
+    
+  }
+}
+
+.title-main{
+  background-color: #0282F9;
+  position: absolute;
+  top: -40px;
+  left: 0px;
+}
+
+.my-bg-secondary{
+  background-color: #0282F9;
+  height: 100px;
+}
+
+.img-merc{
+  display: inline-block;
+  height: 80px;
+  padding: 0.5rem;
+
+}
+
+.blue-line{
+  height: 50px;
+  background-color: #0282F9;
+}
+
+.my-container{
+  width: 80%;
+  margin: auto;
+}
+
+.price{
+  background-color: #55BA59;
+}

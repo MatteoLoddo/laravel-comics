@@ -1,15 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "partials/header";
 @import "partials/jumbotronMain";
+@import "partials/main";
 
 //
-.img-card{
-  width: 150px;
-  img{
-    width: 100%;
-    object-fit: cover;
-    object-position: top;
-    aspect-ratio: 1/1;
-    
-  }
-}
