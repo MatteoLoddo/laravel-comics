@@ -36,7 +36,7 @@ $available = true;
                         </div>
                     </div>
                     <div>
-                        <p class="pt-3">{{ $prodotto['description'] }}</p>
+                        <p class="pt-3">{!! $prodotto['description'] !!}</p>
                     </div>
                 </div>
                 <div class="col">
